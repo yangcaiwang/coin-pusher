@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+          <parent>
+                    <artifactId>coin-pusher</artifactId>
+                    <groupId>com.madnessgame</groupId>
+                    <version>1.0-SNAPSHOT</version>
+          </parent>
+
+          <modelVersion>4.0.0</modelVersion>
+          <artifactId>app</artifactId>
+
+          <dependencies>
+                    <dependency>
+                              <groupId>org.springframework.boot</groupId>
+                              <artifactId>spring-boot-starter-test</artifactId>
+                    </dependency>
+                    <dependency>
+                              <groupId>junit</groupId>
+                              <artifactId>junit</artifactId>
+                              <scope>test</scope>
+                    </dependency>
+                    <!--mybatis-plus 依赖配置-->
+                    <dependency>
+                              <groupId>com.baomidou</groupId>
+                              <artifactId>mybatis-plus-boot-starter</artifactId>
+                    </dependency>
+                    <dependency>
+                              <groupId>com.baomidou</groupId>
+                              <artifactId>mybatis-plus-core</artifactId>
+                    </dependency>
+                    <dependency>
+                              <groupId>com.baomidou</groupId>
+                              <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+                    </dependency>
+                    <!-- 阿里巴巴druid -->
+                    <dependency>
+                              <groupId>com.alibaba</groupId>
+                              <artifactId>druid-spring-boot-starter</artifactId>
+                    </dependency>
+                    <!-- 公共模块 -->
+                    <dependency>
+                              <groupId>com.madnessgame</groupId>
+                              <artifactId>common</artifactId>
+                    </dependency>
+          </dependencies>
+          <build>
+                    <plugins>
+                              <plugin>
+                                        <groupId>org.springframework.boot</groupId>
+                                        <artifactId>spring-boot-maven-plugin</artifactId>
+                                        <version>2.3.7.RELEASE</version>
+                                        <configuration>
+                                                  <!-- 指定该Main Class为全局的唯一入口 -->
+                                                  <mainClass>com.ycw.cloud.lobby.LobbyApplication</mainClass>
+                                                  <layout>ZIP</layout>
+                                        </configuration>
+                                        <executions>
+                                                  <execution>
+                                                            <goals>
+                                                                      <goal>repackage</goal><!--可以把依赖的包都打包到生成的Jar包中-->
+                                                            </goals>
+                                                  </execution>
+                                        </executions>
+                              </plugin>
+
+                              <!--docker镜像build插件-->
+                              <plugin>
+                                        <groupId>com.spotify</groupId>
+                                        <artifactId>docker-maven-plugin</artifactId>
+                                        <version>1.2.0</version>
+                                        <configuration>
+                                                  <!-- 注意imageName一定要是符合正则[a-z0-9-_.]的，否则构建不会成功 -->
+                                                  <imageName>${project.artifactId}</imageName>
+                                                  <dockerDirectory>${project.basedir}/src/main/resources
+                                                  </dockerDirectory>
+                                                  <rm>true</rm>
+                                                  <resources>
+                                                            <resource>
+                                                                      <targetPath>/</targetPath>
+                                                                      <directory>${project.build.directory}</directory>
+                                                                      <include>${project.build.finalName}.jar</include>
+                                                            </resource>
+                                                  </resources>
+                                        </configuration>
+                              </plugin>
+                    </plugins>
+          </build>
+</project>

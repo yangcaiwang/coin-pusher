@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+          <modelVersion>4.0.0</modelVersion>
+
+          <name>${project.artifactId}</name>
+          <groupId>com.madnessgame</groupId>
+          <artifactId>coin-pusher</artifactId>
+          <packaging>pom</packaging>
+          <version>1.0-SNAPSHOT</version>
+
+          <modules>
+                    <module>app</module>
+                    <module>common</module>
+          </modules>
+
+          <!-- 统一管理jar包版本 -->
+          <properties>
+                    <!--微服务子模块，用于统一版本号-->
+                    <game.version>1.0-SNAPSHOT</game.version>
+                    <!--encode-->
+                    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+                    <!--version-->
+                    <java.version>1.8</java.version>
+                    <maven.compiler.source>1.8</maven.compiler.source>
+                    <maven.compiler.target>1.8</maven.compiler.target>
+
+                    <spring-boot.version>2.6.3</spring-boot.version>
+                    <javax-servlet.version>4.0.1</javax-servlet.version>
+                    <!--data-->
+                    <druid.version>1.2.8</druid.version>
+                    <spring-boot.mybatis-plus>3.5.1</spring-boot.mybatis-plus>
+                    <!--json-->
+                    <fastjson.verion>1.2.78</fastjson.verion>
+                    <jackson.verion>2.12.0</jackson.verion>
+                    <lombok.version>1.18.4</lombok.version>
+                    <jjwt.version>0.9.1</jjwt.version>
+                    <transmittable-thread-local.version>2.12.2</transmittable-thread-local.version>
+                    <commons-lang3.version>3.7</commons-lang3.version>
+                    <commons.io.version>2.8.0</commons.io.version>
+                    <commons-collections.version>3.2.2</commons-collections.version>
+                    <commons-net.version>3.8.0</commons-net.version>
+                    <hutool-all.version>5.7.17</hutool-all.version>
+          </properties>
+
+          <!-- 子模块继承之后，提供作用：锁定版本+子module不用写groupId和version  -->
+          <dependencyManagement>
+                    <dependencies>
+                              <!-- spring boot -->
+                              <dependency>
+                                        <groupId>org.springframework.boot</groupId>
+                                        <artifactId>spring-boot-dependencies</artifactId>
+                                        <version>${spring-boot.version}</version>
+                                        <type>pom</type>
+                                        <scope>import</scope>
+                              </dependency>
+                              <!-- Java Servlet -->
+                              <dependency>
+                                        <groupId>javax.servlet</groupId>
+                                        <artifactId>javax.servlet-api</artifactId>
+                                        <version>${javax-servlet.version}</version>
+                              </dependency>
+                              <!--mybatis-plus 依赖配置-->
+                              <dependency>
+                                        <groupId>com.baomidou</groupId>
+                                        <artifactId>mybatis-plus-boot-starter</artifactId>
+                                        <version>${spring-boot.mybatis-plus}</version>
+                              </dependency>
+                              <dependency>
+                                        <groupId>com.baomidou</groupId>
+                                        <artifactId>mybatis-plus-core</artifactId>
+                                        <version>${spring-boot.mybatis-plus}</version>
+                              </dependency>
+                              <dependency>
+                                        <groupId>com.baomidou</groupId>
+                                        <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+                                        <version>${spring-boot.mybatis-plus}</version>
+                              </dependency>
+                              <!-- 阿里巴巴druid -->
+                              <dependency>
+                                        <groupId>com.alibaba</groupId>
+                                        <artifactId>druid-spring-boot-starter</artifactId>
+                                        <version>${druid.version}</version>
+                              </dependency>
+                              <!-- 阿里巴巴fastjson -->
+                              <dependency>
+                                        <groupId>com.alibaba</groupId>
+                                        <artifactId>fastjson</artifactId>
+                                        <version>${fastjson.verion}</version>
+                              </dependency>
+
+                              <!-- 谷歌jackson -->
+                              <dependency>
+                                        <groupId>com.fasterxml.jackson.core</groupId>
+                                        <artifactId>jackson-annotations</artifactId>
+                                        <version>${jackson.verion}</version>
+                              </dependency>
+                              <dependency>
+                                        <groupId>com.fasterxml.jackson.core</groupId>
+                                        <artifactId>jackson-databind</artifactId>
+                                        <version>${jackson.verion}</version>
+                              </dependency>
+
+                              <!-- Lombok -->
+                              <dependency>
+                                        <groupId>org.projectlombok</groupId>
+                                        <artifactId>lombok</artifactId>
+                                        <version>${lombok.version}</version>
+                              </dependency>
+                              <!-- JWT -->
+                              <dependency>
+                                        <groupId>io.jsonwebtoken</groupId>
+                                        <artifactId>jjwt</artifactId>
+                                        <version>${jjwt.version}</version>
+                              </dependency>
+                              <!-- 线程传递值 -->
+                              <dependency>
+                                        <groupId>com.alibaba</groupId>
+                                        <artifactId>transmittable-thread-local</artifactId>
+                                        <version>${transmittable-thread-local.version}</version>
+                              </dependency>
+                              <!-- io常用工具类 -->
+                              <dependency>
+                                        <groupId>commons-io</groupId>
+                                        <artifactId>commons-io</artifactId>
+                                        <version>${commons.io.version}</version>
+                              </dependency>
+                              <!-- Collection 增强Java集合框架 -->
+                              <dependency>
+                                        <groupId>commons-collections</groupId>
+                                        <artifactId>commons-collections</artifactId>
+                                        <version>${commons-collections.version}</version>
+                              </dependency>
+                              <!-- Apache Lang3 -->
+                              <dependency>
+                                        <groupId>org.apache.commons</groupId>
+                                        <artifactId>commons-lang3</artifactId>
+                                        <version>${commons-lang3.version}</version>
+                              </dependency>
+                              <!--Hutool 工具集合-->
+                              <dependency>
+                                        <groupId>cn.hutool</groupId>
+                                        <artifactId>hutool-all</artifactId>
+                                        <version>${hutool-all.version}</version>
+                              </dependency>
+
+                              <!-- 公共模块 -->
+                              <dependency>
+                                        <groupId>com.madnessgame</groupId>
+                                        <artifactId>common</artifactId>
+                                        <version>${game.version}</version>
+                              </dependency>
+                    </dependencies>
+          </dependencyManagement>
+
+          <repositories>
+                    <!--//阿里云搭建了一个国内镜像http://maven.aliyun.com，跑起来速度很快，可以进行配置-->
+                    <repository>
+                              <id>nexus-aliyun</id>
+                              <name>nexus-aliyun</name>
+                              <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+                              <releases>
+                                        <enabled>true</enabled>
+                              </releases>
+                    </repository>
+                    <repository>
+                              <id>spring-milestones</id>
+                              <name>Spring Milestones</name>
+                              <url>https://repo.spring.io/libs-milestone</url>
+                              <snapshots>
+                                        <enabled>false</enabled>
+                              </snapshots>
+                    </repository>
+                    <repository>
+                              <id>sonatype-nexus-snapshots</id>
+                              <name>Sonatype Nexus Snapshots</name>
+                              <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+                              <snapshots>
+                                        <enabled>true</enabled>
+                              </snapshots>
+                    </repository>
+          </repositories>
+          <!--maven命令需要的插件（比如clean、install都是maven的插件），走的repository。-->
+          <pluginRepositories>
+                    <pluginRepository>
+                              <id>repository.spring.release</id>
+                              <name>Spring GA Repository</name>
+                              <url>https://repo.spring.io/plugins-release/</url>
+                    </pluginRepository>
+                    <pluginRepository>
+                              <id>jcenter-snapshots</id>
+                              <name>jcenter</name>
+                              <url>http://oss.jfrog.org/artifactory/oss-snapshot-local/</url>
+                    </pluginRepository>
+                    <pluginRepository>
+                              <id>jcenter-releases</id>
+                              <name>jcenter</name>
+                              <url>http://jcenter.bintray.com</url>
+                              <snapshots>
+                                        <enabled>false</enabled>
+                              </snapshots>
+                    </pluginRepository>
+          </pluginRepositories>
+</project>

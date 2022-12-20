@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66f0e420-877e-4a15-8fd6-be81783c6422" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ITfoaUSLuLQbp4cPI85BoophM3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/yangcaiwang/IdeaProjects/coin-pusher",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "spring.configuration.checksum": "123cfccfa3e4e9b407c7527875ff9c30",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/common/src/main" />
+      <recent name="$PROJECT_DIR$/common/src/main/resources" />
+      <recent name="$PROJECT_DIR$/common/src/main/java/com/madnessgame" />
+      <recent name="$PROJECT_DIR$/common/src/main/java/com/madnessgame/constant" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.madnessgame" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.madnessgame.domain.vo" />
+      <recent name="com.madnessgame.domain.dto" />
+      <recent name="com.madnessgame.config" />
+      <recent name="com.madnessgame.jackson" />
+      <recent name="com.madnessgame.exception" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install -DskipTests=true &amp;&amp; mvn package -DskipTests=true" />
+      <command value="mvn install -DskipTests=true" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CoinPusherTest.testDouble">
+    <configuration name="CoinPusherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="PACKAGE_NAME" value="com.madnessgame" />
+      <option name="MAIN_CLASS_NAME" value="com.madnessgame.CoinPusherTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinPusherTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="PACKAGE_NAME" value="com.madnessgame" />
+      <option name="MAIN_CLASS_NAME" value="com.madnessgame.CoinPusherTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinPusherTest.testDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.madnessgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.madnessgame" />
+      <option name="MAIN_CLASS_NAME" value="com.madnessgame.CoinPusherTest" />
+      <option name="METHOD_NAME" value="testDouble" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinPusherTest.testJwks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.madnessgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.madnessgame" />
+      <option name="MAIN_CLASS_NAME" value="com.madnessgame.CoinPusherTest" />
+      <option name="METHOD_NAME" value="testJwks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootTest1.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java" />
+      <option name="MAIN_CLASS_NAME" value="java.SpringBootTest1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinPusher" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.madnessgame.CoinPusher" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CoinPusherTest.testDouble" />
+        <item itemvalue="JUnit.CoinPusherTest.testJwks" />
+        <item itemvalue="JUnit.CoinPusherTest.test" />
+        <item itemvalue="JUnit.CoinPusherTest" />
+        <item itemvalue="JUnit.SpringBootTest1.test (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66f0e420-877e-4a15-8fd6-be81783c6422" name="Changes" comment="" />
+      <created>1670210671375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670210671375</updated>
+      <workItem from="1670210673968" duration="5609000" />
+      <workItem from="1670221914160" duration="3021000" />
+      <workItem from="1670318554209" duration="1973000" />
+      <workItem from="1670320552929" duration="5836000" />
+      <workItem from="1670328307484" duration="178000" />
+      <workItem from="1670383070333" duration="622000" />
+      <workItem from="1670386427949" duration="19000" />
+      <workItem from="1670393941059" duration="596000" />
+      <workItem from="1670397341916" duration="13257000" />
+      <workItem from="1670423392792" duration="3320000" />
+      <workItem from="1670485418875" duration="122000" />
+      <workItem from="1670485640051" duration="598000" />
+      <workItem from="1670497518741" duration="1913000" />
+      <workItem from="1670512789175" duration="611000" />
+      <workItem from="1670653730160" duration="1382000" />
+      <workItem from="1671495510624" duration="10059000" />
+      <workItem from="1671507661553" duration="2929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
