@@ -53,7 +53,7 @@
                                         <version>2.3.7.RELEASE</version>
                                         <configuration>
                                                   <!-- 指定该Main Class为全局的唯一入口 -->
-                                                  <mainClass>com.ycw.cloud.lobby.LobbyApplication</mainClass>
+                                                  <mainClass>com.madnessgame.CoinPusher</mainClass>
                                                   <layout>ZIP</layout>
                                         </configuration>
                                         <executions>
