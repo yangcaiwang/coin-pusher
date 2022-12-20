@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="66f0e420-877e-4a15-8fd6-be81783c6422" name="Changes" comment="更新docker镜像">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/madnessgame/controller/HelloWordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/madnessgame/controller/HelloWordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/coin-pusher/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/coin-pusher/info.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,7 @@
       <command value="mvn install -DskipTests=true" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CoinPusherTest.testDouble">
+  <component name="RunManager" selected="Spring Boot.CoinPusher">
     <configuration name="CoinPusherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <option name="PACKAGE_NAME" value="com.madnessgame" />
@@ -202,7 +203,7 @@
       <workItem from="1670512789175" duration="611000" />
       <workItem from="1670653730160" duration="1382000" />
       <workItem from="1671495510624" duration="10059000" />
-      <workItem from="1671507661553" duration="6197000" />
+      <workItem from="1671507661553" duration="7940000" />
     </task>
     <task id="LOCAL-00001" summary="推币机">
       <created>1671523257758</created>
@@ -246,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671525473918</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新docker镜像">
+      <created>1671526327111</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671526327111</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

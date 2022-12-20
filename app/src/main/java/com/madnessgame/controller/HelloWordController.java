@@ -1,7 +1,7 @@
 package com.madnessgame.controller;
 
 import com.madnessgame.response.R;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
  * <p>
  */
 @RestController
-@RequestMapping("/coin-pusher/helloWord")
 public class HelloWordController {
+    @GetMapping("/coin-pusher/helloWord")
     public R<String> helloWord() {
         return R.ok("hello,word!");
     }

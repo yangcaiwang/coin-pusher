@@ -1,81 +1,33 @@
-22:43:15.510 [main] INFO  c.m.CoinPusher - [logStarting,55] - Starting CoinPusher using Java 1.8.0_352 on 192.168.1.6 with PID 4480 (/Users/yangcaiwang/IdeaProjects/coin-pusher/app/target/classes started by yangcaiwang in /Users/yangcaiwang/IdeaProjects/coin-pusher)
-22:43:15.514 [main] INFO  c.m.CoinPusher - [logStartupProfileInfo,637] - No active profile set, falling back to default profiles: default
-22:43:17.109 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
-22:43:17.110 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-22:43:17.111 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
-22:43:17.185 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-22:43:18.244 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
-22:43:18.278 [main] INFO  c.m.CoinPusher - [logStarted,61] - Started CoinPusher in 3.405 seconds (JVM running for 4.363)
-22:43:18.282 [main] INFO  c.m.CoinPusher - [main,20] - coin-pusher 启动成功！
-22:43:39.602 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-22:44:09.431 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,205] - dynamic-datasource start closing ....
-22:44:09.432 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,209] - dynamic-datasource all closed success,bye
-22:53:23.338 [main] INFO  c.m.CoinPusher - [logStarting,55] - Starting CoinPusher using Java 1.8.0_352 on 192.168.1.6 with PID 4560 (/Users/yangcaiwang/IdeaProjects/coin-pusher/app/target/classes started by yangcaiwang in /Users/yangcaiwang/IdeaProjects/coin-pusher)
-22:53:23.340 [main] INFO  c.m.CoinPusher - [logStartupProfileInfo,637] - No active profile set, falling back to default profiles: default
-22:53:24.957 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
-22:53:24.958 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-22:53:24.958 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
-22:53:25.031 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-22:53:26.080 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
-22:53:26.111 [main] INFO  c.m.CoinPusher - [logStarted,61] - Started CoinPusher in 3.374 seconds (JVM running for 4.075)
-22:53:26.114 [main] INFO  c.m.CoinPusher - [main,20] - coin-pusher 启动成功！
-22:54:07.062 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-22:55:28.018 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,205] - dynamic-datasource start closing ....
-22:55:28.019 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,209] - dynamic-datasource all closed success,bye
-22:55:33.692 [main] INFO  c.m.CoinPusher - [logStarting,55] - Starting CoinPusher using Java 1.8.0_352 on 192.168.1.6 with PID 4574 (/Users/yangcaiwang/IdeaProjects/coin-pusher/app/target/classes started by yangcaiwang in /Users/yangcaiwang/IdeaProjects/coin-pusher)
-22:55:33.694 [main] INFO  c.m.CoinPusher - [logStartupProfileInfo,637] - No active profile set, falling back to default profiles: default
-22:55:35.263 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
-22:55:35.264 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-22:55:35.265 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
-22:55:35.334 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-22:55:36.303 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
-22:55:36.347 [main] INFO  c.m.CoinPusher - [logStarted,61] - Started CoinPusher in 3.222 seconds (JVM running for 3.878)
-22:55:36.350 [main] INFO  c.m.CoinPusher - [main,20] - coin-pusher 启动成功！
-22:55:43.214 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-23:00:08.925 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,205] - dynamic-datasource start closing ....
-23:00:08.927 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,209] - dynamic-datasource all closed success,bye
-23:00:15.341 [main] INFO  c.m.CoinPusher - [logStarting,55] - Starting CoinPusher using Java 1.8.0_352 on 192.168.1.6 with PID 4602 (/Users/yangcaiwang/IdeaProjects/coin-pusher/app/target/classes started by yangcaiwang in /Users/yangcaiwang/IdeaProjects/coin-pusher)
-23:00:15.343 [main] INFO  c.m.CoinPusher - [logStartupProfileInfo,637] - No active profile set, falling back to default profiles: default
-23:00:16.928 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
-23:00:16.930 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-23:00:16.931 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
-23:00:17.004 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-23:00:18.145 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
-23:00:18.180 [main] INFO  c.m.CoinPusher - [logStarted,61] - Started CoinPusher in 3.422 seconds (JVM running for 4.092)
-23:00:18.183 [main] INFO  c.m.CoinPusher - [main,20] - coin-pusher 启动成功！
-23:00:19.079 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-23:02:49.140 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,205] - dynamic-datasource start closing ....
-23:02:49.142 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,209] - dynamic-datasource all closed success,bye
-23:04:43.825 [main] INFO  c.m.CoinPusher - [logStarting,55] - Starting CoinPusher using Java 1.8.0_352 on 192.168.1.6 with PID 4635 (/Users/yangcaiwang/IdeaProjects/coin-pusher/app/target/classes started by yangcaiwang in /Users/yangcaiwang/IdeaProjects/coin-pusher)
-23:04:43.828 [main] INFO  c.m.CoinPusher - [logStartupProfileInfo,637] - No active profile set, falling back to default profiles: default
-23:04:45.504 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
-23:04:45.505 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-23:04:45.505 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
-23:04:45.586 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-23:04:46.598 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
-23:04:46.628 [main] INFO  c.m.CoinPusher - [logStarted,61] - Started CoinPusher in 3.388 seconds (JVM running for 4.039)
-23:04:46.631 [main] INFO  c.m.CoinPusher - [main,20] - coin-pusher 启动成功！
-23:05:13.514 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,205] - dynamic-datasource start closing ....
-23:05:13.515 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,209] - dynamic-datasource all closed success,bye
-23:05:16.361 [main] INFO  c.m.CoinPusher - [logStarting,55] - Starting CoinPusher using Java 1.8.0_352 on 192.168.1.6 with PID 4644 (/Users/yangcaiwang/IdeaProjects/coin-pusher/app/target/classes started by yangcaiwang in /Users/yangcaiwang/IdeaProjects/coin-pusher)
-23:05:16.363 [main] INFO  c.m.CoinPusher - [logStartupProfileInfo,637] - No active profile set, falling back to default profiles: default
-23:05:17.894 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
-23:05:17.895 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-23:05:17.895 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
-23:05:17.962 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-23:05:18.900 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
-23:05:18.928 [main] INFO  c.m.CoinPusher - [logStarted,61] - Started CoinPusher in 3.085 seconds (JVM running for 3.683)
-23:05:18.931 [main] INFO  c.m.CoinPusher - [main,20] - coin-pusher 启动成功！
-23:05:32.023 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-23:15:19.220 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,205] - dynamic-datasource start closing ....
-23:15:19.222 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,209] - dynamic-datasource all closed success,bye
-23:15:27.625 [main] INFO  c.m.CoinPusher - [logStarting,55] - Starting CoinPusher using Java 1.8.0_352 on 192.168.1.6 with PID 4712 (/Users/yangcaiwang/IdeaProjects/coin-pusher/app/target/classes started by yangcaiwang in /Users/yangcaiwang/IdeaProjects/coin-pusher)
-23:15:27.627 [main] INFO  c.m.CoinPusher - [logStartupProfileInfo,637] - No active profile set, falling back to default profiles: default
-23:15:29.165 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
-23:15:29.166 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-23:15:29.166 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
-23:15:29.235 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-23:15:30.206 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
-23:15:30.233 [main] INFO  c.m.CoinPusher - [logStarted,61] - Started CoinPusher in 3.141 seconds (JVM running for 3.753)
-23:15:30.237 [main] INFO  c.m.CoinPusher - [main,20] - coin-pusher 启动成功！
-23:15:47.946 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:26:41.672 [main] INFO  c.m.CoinPusher - [logStarting,55] - Starting CoinPusher using Java 1.8.0_352 on 192.168.1.5 with PID 93824 (/Users/yangcaiwang/IdeaProjects/coin-pusher/app/target/classes started by yangcaiwang in /Users/yangcaiwang/IdeaProjects/coin-pusher)
+20:26:41.676 [main] INFO  c.m.CoinPusher - [logStartupProfileInfo,637] - No active profile set, falling back to default profiles: default
+20:26:43.481 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9000"]
+20:26:43.483 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+20:26:43.483 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+20:26:43.558 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+20:26:44.760 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9000"]
+20:26:44.815 [main] INFO  c.m.CoinPusher - [logStarted,61] - Started CoinPusher in 3.917 seconds (JVM running for 4.753)
+20:26:44.826 [main] INFO  c.m.CoinPusher - [main,20] - coin-pusher 启动成功！
+20:28:40.860 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:29:15.197 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,205] - dynamic-datasource start closing ....
+20:29:15.199 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,209] - dynamic-datasource all closed success,bye
+20:29:22.273 [main] INFO  c.m.CoinPusher - [logStarting,55] - Starting CoinPusher using Java 1.8.0_352 on 192.168.1.5 with PID 93852 (/Users/yangcaiwang/IdeaProjects/coin-pusher/app/target/classes started by yangcaiwang in /Users/yangcaiwang/IdeaProjects/coin-pusher)
+20:29:22.275 [main] INFO  c.m.CoinPusher - [logStartupProfileInfo,637] - No active profile set, falling back to default profiles: default
+20:29:23.740 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9000"]
+20:29:23.742 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+20:29:23.742 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+20:29:23.806 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+20:29:24.750 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9000"]
+20:29:24.780 [main] INFO  c.m.CoinPusher - [logStarted,61] - Started CoinPusher in 3.012 seconds (JVM running for 3.593)
+20:29:24.783 [main] INFO  c.m.CoinPusher - [main,20] - coin-pusher 启动成功！
+20:37:35.635 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,205] - dynamic-datasource start closing ....
+20:37:35.637 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - [destroy,209] - dynamic-datasource all closed success,bye
+20:37:38.630 [main] INFO  c.m.CoinPusher - [logStarting,55] - Starting CoinPusher using Java 1.8.0_352 on 192.168.1.5 with PID 93876 (/Users/yangcaiwang/IdeaProjects/coin-pusher/app/target/classes started by yangcaiwang in /Users/yangcaiwang/IdeaProjects/coin-pusher)
+20:37:38.632 [main] INFO  c.m.CoinPusher - [logStartupProfileInfo,637] - No active profile set, falling back to default profiles: default
+20:37:40.164 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9000"]
+20:37:40.165 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+20:37:40.166 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+20:37:40.227 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+20:37:41.148 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9000"]
+20:37:41.179 [main] INFO  c.m.CoinPusher - [logStarted,61] - Started CoinPusher in 3.062 seconds (JVM running for 3.647)
+20:37:41.182 [main] INFO  c.m.CoinPusher - [main,20] - coin-pusher 启动成功！
+20:37:48.472 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
