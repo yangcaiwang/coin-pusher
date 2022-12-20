@@ -50,8 +50,8 @@ jobs:
 
       - name: Images tag and push
         run: |
-          docker tag coin-pusher:latest yangcaiwang/coin-pusher:latest
-          docker push yangcaiwang/coin-pusher:latest
+          docker tag app:latest yangcaiwang/app:latest
+          docker push yangcaiwang/app:latest
   deploy:
     name: Deploy
     needs: build
